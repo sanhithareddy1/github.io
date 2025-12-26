@@ -1,20 +1,71 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Sanhitha Reddy | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello 👋 I'm Sanhitha</h1>
-    <p>Computer Science Graduate</p>
 
-    <h2>Projects</h2>
-    <ul>
-        <li>WIKI-LENS</li>
-        <li>Camera Calibration</li>
-        <li>Generative Models (VAE, GAN, DDPM)</li>
-    </ul>
+    <!-- NAVBAR -->
+    <nav>
+        <h2 class="logo">Sanhitha</h2>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+        </ul>
+    </nav>
 
-    <h2>Contact</h2>
-    <p>Email: your-email@example.com</p>
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <h1>Hi, I'm Sanhitha Reddy 👋</h1>
+        <p>Computer Science Graduate | Software Developer</p>
+    </section>
+
+    <!-- ABOUT ME -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>
+            I am a Computer Science graduate with a strong interest in software development,
+            computer vision, and machine learning. I enjoy building real-world projects and
+            learning new technologies.
+        </p>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+
+        <div class="project-card">
+            <h3>WIKI-LENS</h3>
+            <p>Real-time object recognition using webcam and Wikipedia API.</p>
+            <a href="https://github.com/yourusername/wiki-lens" target="_blank">GitHub</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Camera Calibration</h3>
+            <p>Estimated intrinsic and extrinsic camera parameters using checkerboard images.</p>
+            <a href="https://github.com/yourusername/camera-calibration" target="_blank">GitHub</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Generative Models</h3>
+            <p>Implemented VAE, GAN, and DDPM using PyTorch on MNIST & CIFAR-10.</p>
+            <a href="https://github.com/yourusername/generative-models" target="_blank">GitHub</a>
+        </div>
+    </section>
+
+    <!-- RESUME -->
+    <section id="resume" class="section">
+        <h2>Resume</h2>
+        <a class="resume-btn" href="assets/resume.pdf" target="_blank">Download Resume</a>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 Sanhitha Reddy</p>
+    </footer>
+
 </body>
 </html>
